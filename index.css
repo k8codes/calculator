@@ -1,0 +1,94 @@
+/*output font family*/
+@import url('https://fonts.googleapis.com/css?family=VT323');
+/*style home button*/
+#home {
+  color: #000;
+}
+/*home button changes color when mouse hovers over it*/
+#home:hover {
+  color: #4286f4;
+}
+
+h1 {
+  font-family: 'VT323';
+}
+/*entire calculator*/
+#calculator {
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #282c56;
+  width: 300px;
+  height: 450px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 10px 10px 5px grey;
+  margin-bottom: 30px;
+}
+
+.btnRows {
+  text-align: center;
+  margin: 10px;
+  column-count: 4;
+  column-width: 50px;
+  column-gap: 12px;
+}
+/*where output will appear*/
+#output {
+  text-align: right;
+  font-size: 4em;
+  font-family: 'VT323', sans-serif;
+  background-color: #605550;
+  color: #000;
+  width: 250px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 85%;
+}
+
+/*styling of buttons*/
+.buttons {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  cursor: pointer;
+  padding: 10px;
+  font-size: 2em;
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+
+.bottomRow {
+  column-count: 2;
+  column-gap: 12px;
+  column-width: 60px;
+  margin: 10px;
+}
+
+.bottomBtns {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 2em;
+  background-color: #fff;
+  border-radius: 32px;
+  height: 50px;
+  text-align: center;
+}
+
+#ac, #ce {
+  padding: 5px;
+}
+
+#home {
+  margin: 0 auto;
+}
+
+.fa {
+  color: #282c56;
+}
+
+.fa:hover {
+  color: grey;
+}
