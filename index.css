@@ -1,16 +1,15 @@
 /*output font family*/
 @import url('https://fonts.googleapis.com/css?family=VT323');
-/*style home button*/
-#home {
-  color: #000;
-}
-/*home button changes color when mouse hovers over it*/
-#home:hover {
-  color: #4286f4;
+
+body {
+  background-image: url('table.jpg');
+  background-repeat: no repeat;
+  background-size: 100%;
 }
 
 h1 {
   font-family: 'VT323';
+  text-shadow: 2px 2px 2px #fff;
 }
 /*entire calculator*/
 #calculator {
@@ -21,7 +20,7 @@ h1 {
   max-width: 100%;
   margin: 0 auto;
   border-radius: 3px;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px #1a1a1d;
   margin-bottom: 30px;
 }
 
@@ -86,7 +85,7 @@ h1 {
 }
 
 .fa {
-  color: #282c56;
+  color: #fff;
 }
 
 .fa:hover {
